@@ -3,7 +3,6 @@ return {
     "blazkowolf/gruber-darker.nvim",
     "EdenEast/nightfox.nvim",
     "ellisonleao/gruvbox.nvim",
-    "rose-pine/neovim",
     {
       "adibhanna/forest-night.nvim",
     },
@@ -30,8 +29,6 @@ return {
         })
       end,
     },
-    "rebelot/kanagawa.nvim",
-    -- "folke/tokyonight.nvim",
     {
       "datsfilipe/vesper.nvim",
     },
@@ -105,7 +102,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "kanagawa-dragon",
     },
   },
 }
