@@ -20,7 +20,7 @@ return {
       "craftzdog/solarized-osaka.nvim",
       config = function()
         require("solarized-osaka").setup({
-          transparent = true,
+          transparent = false,
         })
       end,
     },
@@ -80,13 +80,13 @@ return {
       end,
     },
     {
-      "xiantang/darcula-dark.nvim"
-    }
+      "xiantang/darcula-dark.nvim",
+    },
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "terafox",
+      colorscheme = "gruvbox",
     },
   },
 }
