@@ -5,6 +5,11 @@ return {
       "adibhanna/forest-night.nvim",
     },
     {
+      "duarteocarmo/cursor-themes",
+      lazy = false,
+      priority = 1000,
+    },
+    {
       "navarasu/onedark.nvim",
       config = function()
         require("onedark").setup({
@@ -86,7 +91,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "cursor-dark",
     },
   },
 }
