@@ -33,7 +33,7 @@ return {
       "catppuccin/nvim",
       config = function()
         require("catppuccin").setup({
-          transparent_background = true,
+          transparent_background = false,
         })
       end,
     },
@@ -91,7 +91,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "cursor-dark",
+      colorscheme = "catppuccin",
     },
   },
 }
